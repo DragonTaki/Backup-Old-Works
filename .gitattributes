@@ -1,8 +1,8 @@
-*.exe
-*.rar
-*.zip
+*.exe linguist-detectable=false
+*.rar linguist-detectable=false
+*.zip linguist-detectable=false
 
-*.o
-*.depend
-*.layout
-*.dll
+*.o linguist-detectable=false
+*.depend linguist-detectable=false
+*.layout linguist-detectable=false
+*.dll linguist-detectable=false
