@@ -38,11 +38,11 @@ int main(void)
 		temp=rand()%2;
 		if(temp==0)
 		{
-			cout << "¡¼";
+			cout << "Ä„Åº";
 		}
 		else
 		{
-			cout << "¡½";
+			cout << "Ä„Ë";
 		}
 	}
 	
@@ -58,11 +58,11 @@ int main(void)
 				temp=rand()%2;
 				if(temp==0)
 				{
-					cout << "¡¼";
+					cout << "Ä„Åº";
 				}
 				else
 				{
-					cout << "¡½";
+					cout << "Ä„Ë";
 				}
 			}
 		}
