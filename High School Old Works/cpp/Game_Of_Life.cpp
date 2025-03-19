@@ -124,11 +124,11 @@ void game_frame(void)
 		{
 			if(cells[i][j]==DEAD)
 			{
-				cout << "¡¼";
+				cout << "Â¡Â¼";
 			}
 			else  //ALIVE
 			{
-				cout << "¡½";
+				cout << "Â¡Â½";
 			}
 		}
 		cout << "| " << i << "     |" << endl;
