@@ -1,0 +1,19 @@
+ÿÿPrivate Declare Function GetWindowLong Lib "user32" Alias "GetWindowLongA" (ByVal hwnd As Long, ByVal nIndex As Long) As Long
+Private Declare Function SetWindowLong Lib "user32" Alias "SetWindowLongA" (ByVal hwnd As Long, ByVal nIndex As Long, ByVal dwNewLong As Long) As Long
+
+Private Const WS_SYSMENU = H80000
+Private Const WS_MINIMIZEBOX = H20000
+Private Const WS_MAXIMIZEBOX = &H10000
+
+Private Const GWL_STYLE = (-16)
+Private Sub Form_DblClick()
+   Unload Me
+End Sub
+Private Sub Form_Load()
+   Dim TempLng As Long
+   TempLng = GetWindowLong(Me.hwnd, GWL_STYLE)
+   TempLng = TempLng And Not WS_SYSMENU
+   TempLng = TempLng And Not WS_MINIMIZEBOX
+   TempLng = TempLng And Not WS_MAXIMIZEBOX
+   SetWindowLong Me.hwnd, GWL_STYLE, TempLng
+End Sub

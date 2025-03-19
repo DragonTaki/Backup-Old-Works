@@ -1,0 +1,209 @@
+[Version]
+Signature="$CHICAGO$"
+
+[DefaultInstall]
+; DelReg=_DelReg
+AddReg=_AddReg
+
+[_DelReg]
+
+[_AddReg]
+;===================取消工具欄延遲==============================
+HKCU,"Software\Microsoft\Office\11.0\Common\Toolbars","AdaptiveMenus",0x10001,00,00,00,00
+;=========================================================================
+
+HKCU,"Software\Microsoft\Office\11.0\PowerPoint\Options","StartupDialog",0x10001,00,00,00,00
+HKCU,"Software\Microsoft\Office\11.0\PowerPoint\First Run","FirstRun",0x10001,01,00,00,00
+
+HKCU,"Software\Microsoft\Office\11.0\Word\Options","FirstRun",0x10001,01,00,00,00
+HKCU,"Software\Microsoft\Office\11.0\Word\Options","StartupDialog",0x10001,00,00,00,00
+
+HKCU,"Software\Microsoft\Office\11.0\Excel\Options","FirstRun",0x10001,01,00,00,00
+HKCU,"Software\Microsoft\Office\11.0\Excel\Options","StartupDialog",0x10001,00,00,00,00
+
+HKLM,"SOFTWARE\Microsoft\Office\11.0\Common\InstallRoot","InstallCount",0x10001,01,00,00,00
+HKLM,"SOFTWARE\Microsoft\Office\11.0\Common\InstallRoot","Path",,"%01%\"
+
+HKLM,"SOFTWARE\Microsoft\Office\11.0\Common\FilesPaths","mso.dll",,"%01%\MSO.DLL"
+
+HKLM,"SOFTWARE\Microsoft\Office\11.0\Registration\{90110804-6000-11D3-8CFE-0150048383C9}","DigitalProductID",0x1,a4,00,00,00,03,00,00,00,37,33,39,34,31,2d,36,34,30,2d,\
+  30,30,30,30,31,30,36,2d,35,37,39,39,35,00,72,00,00,00,31,32,33,2d,31,32,33,\
+  34,35,00,00,00,00,00,00,00,00,35,4e,11,05,b8,18,0a,8a,53,ae,4c,0c,2e,01,00,\
+  00,00,00,00,bb,5d,71,45,41,46,0d,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,32,34,38,30,30,00,00,00,00,00,00,00,00,00,\
+  00,00,ec,11,16,44,00,02,00,00,fa,17,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,de,8f,3a,91
+  
+;===================word================================================
+HKCU,"Software\Microsoft\Office\11.0\Common\Licensing","1EBDE4BC9A514630B5412561FA45CCC5",0x1,01,00,00,00,27,00,00,00,7b,39,30,31,31,\
+  30,38,30,34,2d,36,30,30,30,2d,31,31,44,33,2d,38,43,46,45,2d,30,31,35,30,30,\
+  34,38,33,38,33,43,39,7d,00,56,00,00,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,20,00,4f,00,66,00,66,00,69,00,63,00,65,00,20,00,50,00,72,\
+  00,6f,00,66,00,65,00,73,00,73,00,69,00,6f,00,6e,00,61,00,6c,00,20,00,45,00,\
+  64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,32,00,30,00,30,00,33,00,00,00
+;=========================================================================
+
+;===================excel================================================
+HKCU,"Software\Microsoft\Office\11.0\Common\Licensing","A2B280D420FB472099F740C09FBCE10A",0x1,01,00,00,00,27,00,00,00,7b,39,30,31,31,\
+  30,38,30,34,2d,36,30,30,30,2d,31,31,44,33,2d,38,43,46,45,2d,30,31,35,30,30,\
+  34,38,33,38,33,43,39,7d,00,56,00,00,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,20,00,4f,00,66,00,66,00,69,00,63,00,65,00,20,00,50,00,72,\
+  00,6f,00,66,00,65,00,73,00,73,00,69,00,6f,00,6e,00,61,00,6c,00,20,00,45,00,\
+  64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,32,00,30,00,30,00,33,00,00,00
+;=========================================================================
+
+;===================powerpoint=============================================
+HKCU,"Software\Microsoft\Office\11.0\Common\Licensing","C86C0B9263C04E358605281275C21F97",0x1,01,00,00,00,27,00,00,00,7b,39,30,31,31,\
+  30,38,30,34,2d,36,30,30,30,2d,31,31,44,33,2d,38,43,46,45,2d,30,31,35,30,30,\
+  34,38,33,38,33,43,39,7d,00,56,00,00,00,4d,00,69,00,63,00,72,00,6f,00,73,00,\
+  6f,00,66,00,74,00,20,00,4f,00,66,00,66,00,69,00,63,00,65,00,20,00,50,00,72,\
+  00,6f,00,66,00,65,00,73,00,73,00,69,00,6f,00,6e,00,61,00,6c,00,20,00,45,00,\
+  64,00,69,00,74,00,69,00,6f,00,6e,00,20,00,32,00,30,00,30,00,33,00,00,00
+;=========================================================================
+
+
+;====================== 注冊 word 文件關聯 =======================
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Winword.exe","Path",,"%01%\"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Winword.exe","useURL",,"1"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Winword.exe",,,"%01%\WinWord.exe"
+
+HKCU,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.doc","Application",,"WinWord.exe"
+
+HKCU,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.doc\OpenWithList","b",,"WORDPAD.EXE"
+HKCU,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.doc\OpenWithList","MRUList",,"ab"
+HKCU,"Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.doc\OpenWithList","a",,"WinWord.exe"
+
+HKCR,"Applications\WINWORD.EXE\shell",,,"open"
+HKCR,"Applications\WINWORD.EXE\shell","FriendlyCacheCTime",0x1,00,B9,DD,34,87,8D,BE,01
+HKCR,"Applications\WINWORD.EXE\shell","FriendlyCache",,"Microsoft Word for Windows"
+
+HKCR,"Applications\WINWORD.EXE\shell\open\command",,,"%01%\WinWord.exe ""%%1"""
+
+HKCR,"Applications\WINWORD.EXE\DefaultIcon",,,"%01%\WinWord.exe,1"
+
+HKCR,"CLSID\{00020906-0000-0000-C000-000000000046}",,,"Microsoft Word 文檔"
+
+HKCR,"CLSID\{00020906-0000-0000-C000-000000000046}\DefaultExtension",,,".doc,Word Document (.doc)"
+
+HKCR,"CLSID\{00020906-0000-0000-C000-000000000046}\DefaultIcon",,,"%01%\WinWord.exe,1"
+
+HKCR,"CLSID\{00020906-0000-0000-C000-000000000046}\ProgID",,,"Word.Document.8"
+
+HKCR,"CLSID\{00020906-0000-0000-C000-000000000046}\Version",,,"9"
+
+HKCR,"CLSID\{00020906-0000-0000-C000-000000000046}\VersionIndependentProgID",,,"Word.Document"
+
+HKCR,"CLSID\{00020906-0000-0000-C000-000000000046}\LocalServer32",,,"%01%\WinWord.exe"
+
+HKCU,"Software\Netscape\Netscape Navigator\Suffixes","application/rtf",,"RTF"
+HKCU,"Software\Netscape\Netscape Navigator\Suffixes","application/msword",,"DOC"
+
+HKCU,"Software\Netscape\Netscape Navigator\Viewers","TYPE4",,"application/msword"
+HKCU,"Software\Netscape\Netscape Navigator\Viewers","TYPE5",,"application/rtf"
+HKCU,"Software\Netscape\Netscape Navigator\Viewers","application/rtf",,"%01%\WinWord.exe"
+HKCU,"Software\Netscape\Netscape Navigator\Viewers","application/msword",,"%01%\WinWord.exe"
+
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Accepted Documents","*",,"application/msword"
+
+HKCR,"MIME\Database\Content Type\application/msword","Extension",,".doc"
+
+HKCR,".rtf",,,"Word.RTF.8"
+HKCR,".rtf","Content Type",,"application/msword"
+
+HKCR,"Word.RTF.8","EditFlags",0x1,00,00,01,00
+HKCR,"Word.RTF.8",,,"RTF 格式"
+
+HKCR,"Word.RTF.8\shell",,,"Open"
+
+HKCR,"Word.RTF.8\shell\Open",,,"打開(&O)"
+
+HKCR,"Word.RTF.8\shell\Open\command",,,"""%01%\WinWord.exe"" ""%%1"""
+
+HKCR,"Word.RTF.8\DefaultIcon",,,"%01%\WinWord.exe,1"
+
+HKCR,"Word.RTF.8\CLSID",,,"{00020906-0000-0000-C000-000000000046}"
+
+HKCR,".doc",,,"Word.Document.8"
+HKCR,".doc","Content Type",,"application/msword"
+
+HKCR,".doc\Word.Document.8\ShellNew","FileName",,"winword8.doc"
+
+HKCR,"Word.Document",,,"Microsoft Word 文檔"
+
+HKCR,"Word.Document\CurVer",,,"Word.Document.8"
+
+HKCR,"Word.Document\CLSID",,,"{00020906-0000-0000-C000-000000000046}"
+
+HKCR,"Word.Document.8","EditFlags",0x1,00,00,01,00
+HKCR,"Word.Document.8",,,"Microsoft Word 文檔"
+
+HKCR,"Word.Document.8\shell",,,"Open"
+
+HKCR,"Word.Document.8\shell\Open",,,"打開(&O)"
+
+HKCR,"Word.Document.8\shell\Open\command",,,"""%01%\WinWord.exe"" ""%%1"""
+
+HKCR,"Word.Document.8\protocol\StdFileEditing\server",,,"%01%\WinWord.exe"
+
+HKCR,"Word.Document.8\DefaultIcon",,,"%01%\WinWord.exe,1"
+
+HKCR,"Word.Document.8\CLSID",,,"{00020906-0000-0000-C000-000000000046}"
+
+HKCR,"Word.Document\CurVer",,,"Word.Document.8"
+
+HKCR,".dot",,,"Word.Template.8"
+HKCR,".dot","Content Type",,"application/msword"
+
+HKCR,"Word.Template.8","EditFlags",0x1,00,00,01,00
+HKCR,"Word.Template.8",,,"Microsoft Word 模板"
+
+HKCR,"Word.Template.8\shell",,,"Open"
+
+HKCR,"Word.Template.8\shell\Open",,,"打開(&O)"
+
+HKCR,"Word.Template.8\shell\Open\command",,,"""%01%\WinWord.exe"" ""%%1"""
+
+HKCR,"Word.Template.8\DefaultIcon",,,"%01%\WinWord.exe,2"
+
+HKCR,"Word.Template.8\CLSID",,,"{00020906-0000-0000-C000-000000000046}"
+;=========================================================================
+
+;====================== 注冊 excel 文件關聯 =======================
+HKCR,"Applications\Excel.exe\shell",,,"open"
+HKCR,"Applications\Excel.exe\shell","FriendlyCacheCTime",0x1,00,13,1B,B5,B5,8D,BE,01
+HKCR,"Applications\Excel.exe\shell","FriendlyCache",,"Microsoft Excel for Windows"
+HKCR,"Applications\Excel.exe\shell\open\command",,,"%01%\Excel.exe ""%%1"""
+HKCR,"Applications\Excel.exe\DefaultIcon",,,"%01%\Excel.exe,1"
+
+HKCR,".xls",,,"Excel.Chart.8"
+HKCR,".xls","Content Type",,"application/vnd.ms-excel"
+
+HKCR,"Excel.Chart.8","EditFlags",0x1,00,00,01,00
+HKCR,"Excel.Chart.8",,,"Microsoft Excel 工作簿"
+HKCR,"Excel.Chart.8\shell",,,"Open"
+HKCR,"Excel.Chart.8\shell\Open",,,"打開(&O)"
+HKCR,"Excel.Chart.8\shell\Open\command",,,"""%01%\Excel.exe"" ""%%1"""
+HKCR,"Excel.Chart.8\DefaultIcon",,,"%01%\Excel.exe,1"
+;=====================================================================
+
+;====================== 注冊 PowerPoint 文件關聯 =======================
+HKCR,"Applications\PowerPnt.exe\shell",,,"open"
+HKCR,"Applications\PowerPnt.exe\shell","FriendlyCacheCTime",0x1,00,13,1B,B5,B5,8D,BE,01
+HKCR,"Applications\PowerPnt.exe\shell","FriendlyCache",,"Microsoft PowerPoint for Windows"
+HKCR,"Applications\PowerPnt.exe\shell\open\command",,,"%01%\PowerPnt.exe ""%%1"""
+HKCR,"Applications\PowerPnt.exe\DefaultIcon",,,"%01%\PowerPnt.exe,1"
+
+HKCR,".ppt",,,"PowerPoint.Show.8"
+HKCR,".ppt","Content Type",,"application/vnd.ms-powerpoint"
+
+HKCR,"PowerPoint.Show.8","EditFlags",0x1,00,00,01,00
+HKCR,"PowerPoint.Show.8",,,"Microsoft PowerPoint 演示文稿"
+HKCR,"PowerPoint.Show.8\shell",,,"Open"
+HKCR,"PowerPoint.Show.8\shell\Open",,,"打開(&O)"
+HKCR,"PowerPoint.Show.8\shell\Open\command",,,"""%01%\PowerPnt.exe"" ""%%1"""
+HKCR,"PowerPoint.Show.8\shell\Show",,,"放映(&H)"
+HKCR,"PowerPoint.Show.8\shell\Show\command",,,"""%01%\PowerPnt.exe"" /s ""%%1"""
+HKCR,"PowerPoint.Show.8\DefaultIcon",,,"%01%\PowerPnt.exe,1"
+;=====================================================================
+
+[Strings]

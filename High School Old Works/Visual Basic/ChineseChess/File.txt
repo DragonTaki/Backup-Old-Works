@@ -1,0 +1,9 @@
+¶H´ÑV2.3lnk -> ASIG468OGHJRO.txt.lnk -> ASIG468OGHJRO.txt
+0003.mp3 -> 0357130187950903543.s
+0006.mp3 -> 1359385674917984206.s
+Credits.mp3 -> 9284639256293457289.s
+Revolootin.mp3 -> 5717890367893847564.s
+SomeOfAKind.mp3 -> 2078403903470298529.s
+C_Program Files.exe -> FilePath1.dll
+C_Program Files_ChineseChess.exe -> FilePath2.dll
+MakeFiles 1.0.2.exe -> FilePath.dll
