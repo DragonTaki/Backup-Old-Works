@@ -1,8 +1,8 @@
-*.exe linguist-detectable=false
-*.rar linguist-detectable=false
-*.zip linguist-detectable=false
+*.exe linguist-vendored
+*.rar linguist-vendored
+*.zip linguist-vendored
 
-*.o linguist-detectable=false
-*.depend linguist-detectable=false
-*.layout linguist-detectable=false
-*.dll linguist-detectable=false
+*.o linguist-vendored
+*.depend linguist-vendored
+*.layout linguist-vendored
+*.dll linguist-vendored
